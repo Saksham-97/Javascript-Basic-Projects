@@ -1,0 +1,13 @@
+1 go to openweatherapi.org
+2 sign in/sign up
+3 youraccount (second option from right in navbar)
+4 select API Keys
+5 copy your API Key
+6 select API in navbar
+7 scroll down
+8 select API doc of Current weather Data > scroll down and find "Built-in API request by city name"
+9 copy first link from API call below
+10 paste in the url search
+11 enter the city name in url and also the API key (it will take 3-4 hours for your key to activate)
+12 to change the unit system of API, open url, enter the city name and api key then type &units=metric, this will change all the units into metric
+13 copy this url and add to your html file
