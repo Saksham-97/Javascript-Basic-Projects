@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(220, 256, 256);
+}
+
+header nav{
+    background: rgb(0,0,33);
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container .game-container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin: 1vh 2vw;
+    margin: 30px 0px;
+}
+
+.container .game-container .box{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .game-container .box:hover{
+    background-color: rgb(190, 256, 256);
+    cursor: pointer;
+}
+
+.container .game-container .box .box-text{
+    font-size: 8vw;
+}
+
+.game-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.game-info .controls{
+    margin: 10px 0px;
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.game-info .controls .info{
+    letter-spacing: 0.5px;
+}
+
+.game-info .controls button{
+    background: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.game-info .controls button:hover{
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+.container .game-container .border-top{
+    border-top: none;
+}
+
+.container .game-container .border-bottom{
+    border-bottom: none;
+}
+.container .game-container .border-left{
+    border-left: none;
+}
+.container .game-container .border-right{
+    border-right: none;
+}
+
